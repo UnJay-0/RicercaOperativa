@@ -1,0 +1,110 @@
+Problem:    miscelazioneIdrocarburi
+Rows:       32
+Columns:    15
+Non-zeros:  66
+Status:     OPTIMAL
+Objective:  z = 3.25 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 lowerBound[A,Super]
+                    B            0.3            -0               
+     2 lowerBound[A,Normale]
+                    B            0.5            -0               
+     3 lowerBound[A,Verde]
+                    B            0.7            -0               
+     4 lowerBound[B,Super]
+                    NL           0.4           0.4                        -0.5 
+     5 lowerBound[B,Normale]
+                    NL           0.1           0.1                        -1.5 
+     6 lowerBound[B,Verde]
+                    B              0            -0               
+     7 lowerBound[C,Super]
+                    B            0.5            -0               
+     8 lowerBound[C,Normale]
+                    B              1            -0               
+     9 lowerBound[C,Verde]
+                    B              0            -0               
+    10 lowerBound[D,Super]
+                    B              1            -0               
+    11 lowerBound[D,Normale]
+                    B              0            -0               
+    12 lowerBound[D,Verde]
+                    B              0            -0               
+    13 upperBound[A,Super]
+                    NU           0.3                         0.3           2.5 
+    14 upperBound[A,Normale]
+                    NU           0.5                         0.5           1.5 
+    15 upperBound[A,Verde]
+                    NU           0.7                         0.7           0.5 
+    16 upperBound[B,Super]
+                    B            0.4                           1 
+    17 upperBound[B,Normale]
+                    B            0.1                           1 
+    18 upperBound[B,Verde]
+                    B              0                           1 
+    19 upperBound[C,Super]
+                    NU           0.5                         0.5           1.5 
+    20 upperBound[C,Normale]
+                    NU             1                           1           0.5 
+    21 upperBound[C,Verde]
+                    B              0                           1 
+    22 upperBound[D,Super]
+                    NU             1                           1           0.5 
+    23 upperBound[D,Normale]
+                    B              0                           1 
+    24 upperBound[D,Verde]
+                    B              0                           1 
+    25 utilizzoRisorse[A]
+                    B            1.5                        3000 
+    26 utilizzoRisorse[B]
+                    B            0.5                        2000 
+    27 utilizzoRisorse[C]
+                    B            1.5                        4000 
+    28 utilizzoRisorse[D]
+                    B              1                        1000 
+    29 Barilitotali[Super]
+                    NS             0            -0             =          -5.5 
+    30 Barilitotali[Normale]
+                    NS             0            -0             =          -4.5 
+    31 Barilitotali[Verde]
+                    NS             0            -0             =          -3.5 
+    32 z            B           3.25                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 y[A,Super]   B            0.3             0               
+     2 y[A,Normale] B            0.5             0               
+     3 y[A,Verde]   B            0.7             0               
+     4 y[B,Super]   B            0.4             0               
+     5 y[B,Normale] B            0.1             0               
+     6 y[B,Verde]   NL             0             0                        -2.5 
+     7 y[C,Super]   B            0.5             0               
+     8 y[C,Normale] B              1             0               
+     9 y[C,Verde]   NL             0             0                        -0.5 
+    10 y[D,Super]   B              1             0               
+    11 y[D,Normale] NL             0             0                        -0.5 
+    12 y[D,Verde]   NL             0             0                        -1.5 
+    13 x[Super]     B            2.2             0               
+    14 x[Normale]   B            1.6             0               
+    15 x[Verde]     B            0.7             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.78e-16 on row 13
+        max.rel.err = 1.73e-16 on row 13
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
