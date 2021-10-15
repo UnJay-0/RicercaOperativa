@@ -1,0 +1,54 @@
+Problem:    multi
+Rows:       9
+Columns:    8
+Non-zeros:  23
+Status:     OPTIMAL
+Objective:  z = 649600 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Magazzino[7] NS           300           300             =            36 
+     2 Magazzino[8] NS           500           500             =          3036 
+     3 Magazzino[9] NS           400           400             =            38 
+     4 magazzinoGiugno
+                    NS           200           200             =            34 
+     5 capacitaProduttiva[6]
+                    B            200                         400 
+     6 capacitaProduttiva[7]
+                    B            500                         500 
+     7 capacitaProduttiva[8]
+                    NU           300                         300         -3004 
+     8 capacitaProduttiva[9]
+                    B            400                         400 
+     9 z            B         649600                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[7]         B            500             0               
+     2 x[8]         B            300             0               
+     3 x[9]         B            400             0               
+     4 x[6]         B            200             0               
+     5 y[6]         NL             0             0                        1998 
+     6 y[7]         B            200             0               
+     7 y[8]         NL             0             0                        4998 
+     8 y[9]         NL             0             0                        3038 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
