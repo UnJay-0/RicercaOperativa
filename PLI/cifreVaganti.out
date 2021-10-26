@@ -1,0 +1,79 @@
+Problem:    cifreVaganti
+Rows:       22
+Columns:    12 (12 integer, 4 binary)
+Non-zeros:  52
+Status:     INTEGER EMPTY
+Objective:  0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 migliaiaToDecine
+                                   0            -0             = 
+     2 centinaiaToUnita
+                                   0            -0             = 
+     3 decineToCentinaia
+                                   0            -0             = 
+     4 unitaToMigliaia
+                                   0            -0             = 
+     5 somma                       0          8612             = 
+     6 conteggioCifreUguali[0,0]
+                                   0            -0             = 
+     7 conteggioCifreUguali[0,1]
+                                   0            -0             = 
+     8 conteggioCifreUguali[0,2]
+                                   0            -0             = 
+     9 conteggioCifreUguali[0,3]
+                                   0            -0             = 
+    10 conteggioCifreUguali[1,0]
+                                   0            -0             = 
+    11 conteggioCifreUguali[1,1]
+                                   0            -0             = 
+    12 conteggioCifreUguali[1,2]
+                                   0            -0             = 
+    13 conteggioCifreUguali[1,3]
+                                   0            -0             = 
+    14 conteggioCifreUguali[2,0]
+                                   0            -0             = 
+    15 conteggioCifreUguali[2,1]
+                                   0            -0             = 
+    16 conteggioCifreUguali[2,2]
+                                   0            -0             = 
+    17 conteggioCifreUguali[2,3]
+                                   0            -0             = 
+    18 conteggioCifreUguali[3,0]
+                                   0            -0             = 
+    19 conteggioCifreUguali[3,1]
+                                   0            -0             = 
+    20 conteggioCifreUguali[3,2]
+                                   0            -0             = 
+    21 conteggioCifreUguali[3,3]
+                                   0            -0             = 
+    22 dueCifreUguali
+                                   0             2               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[3]         *              0             1             9 
+     2 x[2]         *              0             1             9 
+     3 x[1]         *              0             1             9 
+     4 x[0]         *              0             1             9 
+     5 y[1]         *              0             1             9 
+     6 y[0]         *              0             1             9 
+     7 y[2]         *              0             1             9 
+     8 y[3]         *              0             1             9 
+     9 w[0]         *              0             0             1 
+    10 w[1]         *              0             0             1 
+    11 w[2]         *              0             0             1 
+    12 w[3]         *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 8.61e+03 on row 5
+        max.rel.err = 1.00e+00 on row 5
+        SOLUTION IS INFEASIBLE
+
+End of output
