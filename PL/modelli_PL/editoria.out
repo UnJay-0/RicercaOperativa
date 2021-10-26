@@ -1,0 +1,114 @@
+Problem:    editoria
+Rows:       34
+Columns:    38 (38 integer, 36 binary)
+Non-zeros:  184
+Status:     INTEGER EMPTY
+Objective:  z = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 capacita[1]                 0                          44 
+     2 capacita[2]                 0                          44 
+     3 capacita[3]                 0                          44 
+     4 pubblicitaMax[1]
+                                   0            -0               
+     5 pubblicitaMax[2]
+                                   0            -0               
+     6 pubblicitaMax[3]
+                                   0            -0               
+     7 pubblicitaMin[1]
+                                   0                          -0 
+     8 pubblicitaMin[2]
+                                   0                          -0 
+     9 pubblicitaMin[3]
+                                   0                          -0 
+    10 assegnamento[A]
+                                   0                           1 
+    11 assegnamento[B]
+                                   0                           1 
+    12 assegnamento[C]
+                                   0                           1 
+    13 assegnamento[D]
+                                   0                           1 
+    14 assegnamento[E]
+                                   0                           1 
+    15 assegnamento[F]
+                                   0                           1 
+    16 assegnamento[G]
+                                   0                           1 
+    17 assegnamento[H]
+                                   0                           1 
+    18 assegnamento[I]
+                                   0                           1 
+    19 assegnamento[J]
+                                   0                           1 
+    20 assegnamento[K]
+                                   0                           1 
+    21 assegnamento[L]
+                                   0                           1 
+    22 UrgenzaV[A]                 0             1             = 
+    23 UrgenzaV[B]                 0             1             = 
+    24 UrgenzaV[C]                 0             1             = 
+    25 UrgenzaV[D]                 0             1             = 
+    26 UrgenzaV[E]                 0             1             = 
+    27 UrgenzaV[F]                 0             1             = 
+    28 UrgenzaV[G]                 0             1             = 
+    29 UrgenzaV[H]                 0             1             = 
+    30 UrgenzaV[I]                 0             1             = 
+    31 UrgenzaV[J]                 0             1             = 
+    32 UrgenzaV[K]                 0             1             = 
+    33 UrgenzaV[L]                 0             1             = 
+    34 z                           0                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[A,1]       *              0             0             1 
+     2 x[B,1]       *              0             0             1 
+     3 x[C,1]       *              0             0             1 
+     4 x[D,1]       *              0             0             1 
+     5 x[E,1]       *              0             0             1 
+     6 x[F,1]       *              0             0             1 
+     7 x[G,1]       *              0             0             1 
+     8 x[H,1]       *              0             0             1 
+     9 x[I,1]       *              0             0             1 
+    10 x[J,1]       *              0             0             1 
+    11 x[K,1]       *              0             0             1 
+    12 x[L,1]       *              0             0             1 
+    13 x[A,2]       *              0             0             1 
+    14 x[B,2]       *              0             0             1 
+    15 x[C,2]       *              0             0             1 
+    16 x[D,2]       *              0             0             1 
+    17 x[E,2]       *              0             0             1 
+    18 x[F,2]       *              0             0             1 
+    19 x[G,2]       *              0             0             1 
+    20 x[H,2]       *              0             0             1 
+    21 x[I,2]       *              0             0             1 
+    22 x[J,2]       *              0             0             1 
+    23 x[K,2]       *              0             0             1 
+    24 x[L,2]       *              0             0             1 
+    25 x[A,3]       *              0             0             1 
+    26 x[B,3]       *              0             0             1 
+    27 x[C,3]       *              0             0             1 
+    28 x[D,3]       *              0             0             1 
+    29 x[E,3]       *              0             0             1 
+    30 x[F,3]       *              0             0             1 
+    31 x[G,3]       *              0             0             1 
+    32 x[H,3]       *              0             0             1 
+    33 x[I,3]       *              0             0             1 
+    34 x[J,3]       *              0             0             1 
+    35 x[K,3]       *              0             0             1 
+    36 x[L,3]       *              0             0             1 
+    37 pMin         *              0             0               
+    38 pMax         *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.00e+00 on row 22
+        max.rel.err = 5.00e-01 on row 22
+        SOLUTION IS INFEASIBLE
+
+End of output

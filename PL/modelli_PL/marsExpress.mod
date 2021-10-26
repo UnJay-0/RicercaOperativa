@@ -15,7 +15,7 @@ var c;
 subject to massimaCapacitaRaggiunta {i in Memorie, j in Orbite}:
 	c >= (100*y[i, j])/capacita[i];
 subject to capacitaTrasmissione {j in Orbite}:
-	sum {i in Memorie} x[i,j] <= window[j] * velocita;
+	sum {i in Memorie} x[i,j] <= window[j] * velocita;m
 
 subject to riempimentoMemorie {i in Memorie, j in Orbite: j >= 2}:
 	input[i, j] + y[i, j-1] = x[i, j] + y[i, j];
